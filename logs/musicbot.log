@@ -1,0 +1,95 @@
+[41.064977646] 2018-01-16 20:29:14,089 - INFO - launcher: Starting sanity checks
+[41.452407837] 2018-01-16 20:29:14,089 - INFO - launcher: Checking for Python 3.5+
+[41.968584061] 2018-01-16 20:29:14,090 - INFO - launcher: Checking console encoding
+[41.968584061] 2018-01-16 20:29:14,090 - INFO - launcher: Setting console encoding to UTF-8
+[42.468547821] 2018-01-16 20:29:14,090 - INFO - launcher: Ensuring we're in the right environment
+[43.969392776] 2018-01-16 20:29:14,092 - INFO - launcher: Adding local bins/ folder to path
+[44.970273972] 2018-01-16 20:29:14,093 - INFO - launcher: Required checks passed.
+[45.467138290] 2018-01-16 20:29:14,093 - INFO - launcher: Optional checks passed.
+[45.973062515] 2018-01-16 20:29:14,094 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.7058620452880859] 2018-01-16 20:29:15,754 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 213 in _setup_logging: Set logging level to INFO
+[1.7058620452880859] 2018-01-16 20:29:15,754 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 80 in __init__: =========== MusicBot (version 1.9.6_1) ===========
+[1.7068622112274170] 2018-01-16 20:29:15,755 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[1.708864927] launcher-INFO: Connecting
+[5.3585407733917236] 2018-01-16 20:29:19,406 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 1011 in on_ready: Connection established, ready to go.
+[5.3590388298034668] 2018-01-16 20:29:19,407 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 324 in _cache_app_info: Caching app info
+[5.5224919319152832] 2018-01-16 20:29:19,570 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[5.5269939899444580] 2018-01-16 20:29:19,575 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 838 in _scheck_ensure_env: Deleted old audio cache
+[5.5274946689605713] 2018-01-16 20:29:19,575 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 844 in _scheck_server_permissions: Checking server permissions
+[5.5274946689605713] 2018-01-16 20:29:19,575 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[5.5274946689605713] 2018-01-16 20:29:19,575 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 852 in _scheck_configs: Validating config
+[5.5274946689605713] 2018-01-16 20:29:19,575 - DEBUG - musicbot.config | In config.py::MainThread(24624), line 155 in async_validate: Validating options...
+[5.5279951095581055] 2018-01-16 20:29:19,576 - DEBUG - musicbot.config | In config.py::MainThread(24624), line 169 in async_validate: Acquired owner id via API
+[5.5279951095581055] 2018-01-16 20:29:19,576 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 855 in _scheck_configs: Validating permissions config
+[5.5279951095581055] 2018-01-16 20:29:19,576 - DEBUG - musicbot.permissions | In permissions.py::MainThread(24624), line 59 in async_validate: Validating permissions...
+[5.5279951095581055] 2018-01-16 20:29:19,576 - DEBUG - musicbot.permissions | In permissions.py::MainThread(24624), line 63 in async_validate: Fixing automatic owner group
+[5.5284965038299561] 2018-01-16 20:29:19,576 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1022 in on_ready: Connected to Discord!
+[5.5294954776763916] 2018-01-16 20:29:19,577 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1032 in on_ready: Bot:   397701792378388490/Neko ( Beta )#3475 [BOT]
+[5.5299961566925049] 2018-01-16 20:29:19,578 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1040 in on_ready: Owner: 238499960092491776/Neko#0508
+
+[5.5304968357086182] 2018-01-16 20:29:19,578 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1043 in on_ready: Server List:
+[5.5309970378875732] 2018-01-16 20:29:19,579 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1044 in <listcomp>:  - Neko
+[5.5314970016479492] 2018-01-16 20:29:19,579 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1088 in on_ready: Not bound to any text channels
+[5.5319983959197998] 2018-01-16 20:29:19,580 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1114 in on_ready: Not autojoining any voice channels
+[5.5328593254089355] 2018-01-16 20:29:19,581 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1118 in on_ready: Options:
+[5.5333633422851562] 2018-01-16 20:29:19,581 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1120 in on_ready:   Command prefix: !
+[5.5338644981384277] 2018-01-16 20:29:19,582 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1121 in on_ready:   Default volume: 25%
+[5.5343632698059082] 2018-01-16 20:29:19,582 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[5.5348634719848633] 2018-01-16 20:29:19,583 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[5.5348634719848633] 2018-01-16 20:29:19,583 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1125 in on_ready:   Auto-Summon: Disabled
+[5.5353641510009766] 2018-01-16 20:29:19,583 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1126 in on_ready:   Auto-Playlist: Enabled
+[5.5358643531799316] 2018-01-16 20:29:19,584 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1127 in on_ready:   Auto-Pause: Enabled
+[5.5368649959564209] 2018-01-16 20:29:19,585 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1128 in on_ready:   Delete Messages: Enabled
+[5.5373651981353760] 2018-01-16 20:29:19,585 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1130 in on_ready:     Delete Invoking: Disabled
+[5.5378656387329102] 2018-01-16 20:29:19,586 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1131 in on_ready:   Debug Mode: Disabled
+[5.5403687953948975] 2018-01-16 20:29:19,588 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1132 in on_ready:   Downloaded songs will be deleted
+[27.5488657951354980] 2018-01-16 20:29:41,597 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 2395 in on_message: 238499960092491776/Neko#0508: !play neko neko ondode
+[27.5498664379119873] 2018-01-16 20:29:41,598 - ERROR - musicbot.bot | In bot.py::MainThread(24624), line 2515 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\djkot\MusicBot\musicbot\bot.py", line 2423, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\djkot\MusicBot\musicbot\bot.py", line 563, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[34.3056068420410156] 2018-01-16 20:29:48,353 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 2395 in on_message: 238499960092491776/Neko#0508: !summon
+[34.3066074848175049] 2018-01-16 20:29:48,354 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 1804 in cmd_summon: Joining Neko/General
+[34.3071095943450928] 2018-01-16 20:29:48,355 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 437 in get_voice_client: Connection attempt 1 to General
+[34.3076081275939941] 2018-01-16 20:29:48,355 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(24624), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[34.3076081275939941] 2018-01-16 20:29:48,355 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(24624), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[34.3081085681915283] 2018-01-16 20:29:48,356 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(24624), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[34.4533271789550781] 2018-01-16 20:29:48,501 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(24624), line 2564 in on_voice_state_update: Voice state update for 397701792378388490/Neko ( Beta )#3475 on Neko/General -> [JOIN, CONNECT]
+[34.4533271789550781] 2018-01-16 20:29:48,501 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 2575 in on_voice_state_update: 397701792378388490/Neko ( Beta )#3475 has joined Neko/General
+[34.4543273448944092] 2018-01-16 20:29:48,502 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(24624), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[34.5933287143707275] 2018-01-16 20:29:48,641 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(24624), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[34.6348333358764648] 2018-01-16 20:29:48,683 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(24624), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[34.6348333358764648] 2018-01-16 20:29:48,683 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 463 in get_voice_client: Connected in 0.3s
+[34.6353337764739990] 2018-01-16 20:29:48,683 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 464 in get_voice_client: Connected to Neko/General
+[34.6360988616943359] 2018-01-16 20:29:48,684 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 805 in deserialize_queue: Deserializing queue for 247426621366075392
+[35.0760660171508789] 2018-01-16 20:29:49,124 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 555 in get_player: Created player via deserialization for server 247426621366075392 with 2 entries
+[35.0765662193298340] 2018-01-16 20:29:49,124 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 781 in serialize_queue: Serializing queue for 247426621366075392
+[35.0830695629119873] 2018-01-16 20:29:49,131 - VOICEDEBUG - musicbot.player | In player.py::MainThread(24624), line 311 in websocket_check: Starting websocket check loop for Neko
+[35.0835707187652588] 2018-01-16 20:29:49,131 - FFMPEG - musicbot.player | In player.py::MainThread(24624), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-qBmZnTsEWDo-neko_neko_ondo-nyan_koi.webm
+[35.3106477260589600] 2018-01-16 20:29:49,358 - INFO - musicbot.entry | In entry.py::MainThread(24624), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=qBmZnTsEWDo
+[35.3271579742431641] 2018-01-16 20:29:49,375 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 781 in serialize_queue: Serializing queue for 247426621366075392
+[35.3326637744903564] 2018-01-16 20:29:49,380 - FFMPEG - musicbot.player | In player.py::Thread-3 stderr reader(30944), line 409 in filter_stderr: Data from ffmpeg: b'audio_cache\\youtube-qBmZnTsEWDo-neko_neko_ondo-nyan_koi.webm: No such file or directory\r\n'
+[35.3796944618225098] 2018-01-16 20:29:49,427 - DEBUG - musicbot.player | In player.py::MainThread(24624), line 197 in _playback_finished: Deleting file: audio_cache\youtube-qBmZnTsEWDo-neko_neko_ondo-nyan_koi.webm
+[35.4002079963684082] 2018-01-16 20:29:49,448 - ERROR - musicbot.player | In player.py::MainThread(24624), line 227 in _delete_file: Error trying to delete audio_cache\youtube-qBmZnTsEWDo-neko_neko_ondo-nyan_koi.webm
+Traceback (most recent call last):
+  File "C:\Users\djkot\MusicBot\musicbot\player.py", line 219, in _delete_file
+    os.unlink(filename)
+FileNotFoundError: [WinError 2] Не удается найти указанный файл: 'audio_cache\\youtube-qBmZnTsEWDo-neko_neko_ondo-nyan_koi.webm'
+[37.9601612091064453] 2018-01-16 20:29:52,008 - INFO - musicbot.entry | In entry.py::MainThread(24624), line 219 in _really_download: Download started: https://youtube.com/watch?v=cXER29tPVow
+[53.2856504917144775] 2018-01-16 20:30:07,333 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 2395 in on_message: 238499960092491776/Neko#0508: !play neko neko ondode
+[85.0616958141326904] 2018-01-16 20:30:39,109 - INFO - musicbot.entry | In entry.py::MainThread(24624), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=qBmZnTsEWDo
+[85.0822072029113770] 2018-01-16 20:30:39,130 - FFMPEG - musicbot.player | In player.py::MainThread(24624), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-qBmZnTsEWDo-neko_neko_ondo-nyan_koi.webm
+[85.2457532882690430] 2018-01-16 20:30:39,294 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 781 in serialize_queue: Serializing queue for 247426621366075392
+[88.5447046756744385] 2018-01-16 20:30:42,592 - DEBUG - musicbot.bot | In bot.py::MainThread(24624), line 781 in serialize_queue: Serializing queue for 247426621366075392
+[98.9783005714416504] 2018-01-16 20:30:53,026 - INFO - musicbot.entry | In entry.py::MainThread(24624), line 226 in _really_download: Download complete: https://youtube.com/watch?v=cXER29tPVow
+[104.5663719177246094] 2018-01-16 20:30:58,614 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 2395 in on_message: 238499960092491776/Neko#0508: !disconnect
+[104.5873866081237793] 2018-01-16 20:30:58,635 - DEBUG - musicbot.player | In player.py::MainThread(24624), line 197 in _playback_finished: Deleting file: audio_cache\youtube-qBmZnTsEWDo-neko_neko_ondo-nyan_koi.webm
+[104.7210724353790283] 2018-01-16 20:30:58,769 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(24624), line 2564 in on_voice_state_update: Voice state update for 397701792378388490/Neko ( Beta )#3475 on Neko/General -> [DISCONNECT]
+[120.6022827625274658] 2018-01-16 20:31:14,650 - INFO - musicbot.bot | In bot.py::MainThread(24624), line 2395 in on_message: 238499960092491776/Neko#0508: !shutdown
+[121.747554302] launcher-INFO: All done.
